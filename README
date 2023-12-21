@@ -1,0 +1,6 @@
+This repo implements the missing KDF-TLS test for libacvp.
+You will have to manually copy it in and adapt the input.
+
+Download OSSL 3.0.x, untar it here (./openssl-3.0.x),
+change the OSSL_DIR in Makefile to the OSSL source directory and run:
+make && ./test
